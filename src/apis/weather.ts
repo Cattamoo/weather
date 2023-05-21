@@ -96,7 +96,7 @@ export function getTodayWeather() {
 
 function todayReportDateTime() {
 	const hour = Number(BASE_TIME);
-	const base_time = hour < 2 ? '2300' : `${(hour / 3 * 3 - 1).toString().padStart(2, '0')}00`;
+	const base_time = hour < 2 ? '2300' : `${(Math.floor(hour / 3) * 3 - 1).toString().padStart(2, '0')}00`;
 	const base_date = hour < 2 ? DATE.subtract(1, 'day').format('YYYYMMDD') : BASE_DATE;
 	return {
 		base_date, base_time
