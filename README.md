@@ -1,5 +1,7 @@
 # WEATHER ⛅
 
+<img width="919" alt="image" src="https://github.com/Cattamoo/weather/assets/87294942/3e55cd5f-a7e0-45cf-b119-1c1cf1a212c3">
+
 ## 목표 🏆
 
 - Vue를 사용하여 현재 / 오늘 날씨를 출력하는 날씨 웹 어플리케이션 구현
